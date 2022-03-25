@@ -1,0 +1,12 @@
+- Please create a movie app.-done
+- will have an interface - movie. (name, actors (list of strings), isNew, date)-done
+- Will have an interface for an actor.-done
+- Add 3-6 movies with actors.
+- By using ngClass if the actor is a female mark the row in red, else in blue.
+
+Add a pipe that you can search for a movie by name.
+
+Bunos:
+Add a pipe that you can search for a movie by actor name.
+
+

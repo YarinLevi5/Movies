@@ -1,0 +1,24 @@
+<label>
+  Name:
+  <input type="text" [(ngModel)]="name" placeholder="Name" />
+</label>
+<label>
+  Actors:
+  <label>
+    Name:
+    <input type="text" placeholder="Actor Name" [(ngModel)]="actorName" />
+  </label>
+  <label>
+    Age:
+    <input type="number" placeholder="Actor Age" [(ngModel)]="actorAge" />
+  </label>
+</label>
+<label>
+  Is New?
+  <input type="checkbox" [(ngModel)]="isNew" />
+</label>
+<label>
+  Date:
+  <input type="date" [(ngModel)]="date" />
+</label>
+<input type="button" value="Add Movie" (click)="addMovie()" />
