@@ -12,6 +12,7 @@ export class AddMovieComponent implements OnInit {
   @Input() date = new Date();
   @Input() actorName = '';
   @Input() actorAge = 0;
+  @Input() gender = '';
 
   addMovie() {
     let newMovie = {
@@ -20,6 +21,7 @@ export class AddMovieComponent implements OnInit {
         {
           actorName: this.actorName,
           actorAge: this.actorAge,
+          gender: this.gender,
         },
       ],
       isNew: this.isNew,

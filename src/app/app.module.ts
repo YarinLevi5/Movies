@@ -7,6 +7,7 @@ import { MovieComponent } from './movies/movie/movie.component';
 import { AddMovieComponent } from './movies/add-movie/add-movie.component';
 import { ActorsComponent } from './actors/actors.component';
 import { ActorComponent } from './actors/actor/actor.component';
+import { MovieByNamePipe } from './pipes/movie-by-name.pipe';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ActorComponent } from './actors/actor/actor.component';
     AddMovieComponent,
     ActorsComponent,
     ActorComponent,
+    MovieByNamePipe,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
