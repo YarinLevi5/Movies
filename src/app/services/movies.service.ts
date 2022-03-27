@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class MoviesService {
-  movies: Movie[] = [
+  private movies: Movie[] = [
     {
       name: 'Cinderella',
       actors: [
